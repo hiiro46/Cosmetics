@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  color: white;
+  background: linear-gradient(-180deg, black, #4682b4);
+}
+
+header{
+  height: 100px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+li{
+  list-style: none;
+}
+
+
+.name{
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  font-size: 24px;
+  font-family: serif;
+  cursor: pointer;
+  color: white;
+}
+
+.list{
+  position: relative;
+  top: 25px;
+  right: 65px;
+  font-size: 18px;
+}
+
+.list li{
+  list-style: none;
+  float: right;
+  margin: 0 40px;
+  text-align: center;
+}
+
+.main-line{
+  height: 450px;
+}
+
+.main-line img{
+  padding:  0 30px 30px 30px;
+}
+
+.sildes{
+  height: 450px;
+  width: 50vw;
+  position: relative;
+  left: 25%;
+}
+
+.about-line{
+  height: 100px;
+  position: relative;
+}
+
+.about-font{
+  font-family: serif;
+  display: inline-block;
+  font-size: 28px;
+  position: absolute;
+  left: 48%;
+  top: 35px;
+  letter-spacing: 5px;
+}
+
+/*このborderとborder2はstore-lineでも使用*/
+.border{
+  border-top:solid 3px white;
+  width: 45%;
+  position: absolute;
+  top: 55px;
+  opacity: 0.6;
+}
+
+.border2{
+  border-top: solid 3px white;
+  position: absolute;
+  width: 45%;
+  top: 55px;
+  left: 55%;
+  opacity: 0.6;
+}
+
+.about-sentence{
+  text-align: center;
+  font-family: serif;
+  line-height: 70px;
+  font-size: 18px;
+}
+
+.store-line{
+  height: 100px;
+  position: relative;
+}
+
+.store-font{
+  display: inline-block;
+  font-family: serif;
+  position: absolute;
+  left: 48.2%;
+  top: 35px;
+  letter-spacing: 5px;
+  font-size: 28px;
+}
+
+.store-whole{
+  position:relative;
+  font-family: serif;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.store-whole li{
+  float: left;
+  margin-right: 145px;
+  position: relative;
+  left: 15%;
+}
+
+.clear{
+  clear: both;
+}
+
+.footer-line{
+  height: 150px;
+  text-align: center;
+  position: relative;
+  background-color: black;
+}
+
+.footer-font{
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  font-family: serif;
+}
