@@ -132,6 +132,11 @@ li{
   left: 15%;
 }
 
+iframe{
+  height: 89%;
+  width: 100%;
+}
+
 .clear{
   clear: both;
 }
