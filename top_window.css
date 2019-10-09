@@ -127,13 +127,13 @@ li{
 
 .store-whole li{
   float: left;
-  margin-right: 145px;
+  margin-right: 120px;
   position: relative;
-  left: 15%;
+  left: 10%;
 }
 
 iframe{
-  height: 89%;
+  height: 500px;
   width: 100%;
 }
 
